@@ -35,7 +35,7 @@ export default defineConfig({
   ],
   resolve: { alias: { '@': fileURLToPath(new URL('./src', import.meta.url)) }},
   css: { preprocessorOptions: { scss: { additionalData: '@use "@/styles/element/index.scss" as *;' }}},
-  base: '',
+  base: './',
   build: {
     rollupOptions: {
       output: {
