@@ -20,4 +20,5 @@ app。use(pinia)
 app。use(router)
 app。use(components)
 app。mount('#app')
-console.log("111")
+// eslint-disable-next-line no-console
+console。log("111")
