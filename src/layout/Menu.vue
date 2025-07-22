@@ -8,7 +8,7 @@
       router
     >
       <el-menu-item index="/recommend">
-        为我推荐
+        推荐
       </el-menu-item>
       <!-- <el-menu-item index="/podcast">
         播客
