@@ -21,4 +21,4 @@ app。use(router)
 app。use(components)
 app。mount('#app')
 // eslint-disable-next-line no-console
-console。log("111")
+console.log("111")
