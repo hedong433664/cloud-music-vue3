@@ -15,10 +15,10 @@ import components from '@/components'
 const app = createApp(App)
 const pinia = createPinia()
 
-pinia。use(piniaPluginPersistedstate)
-app。use(pinia)
-app。use(router)
-app。use(components)
-app。mount('#app')
+pinia.use(piniaPluginPersistedstate)
+app.use(pinia)
+app.use(router)
+app.use(components)
+app.mount('#app')
 // eslint-disable-next-line no-console
 console.log("111")
